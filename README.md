@@ -1,0 +1,1 @@
+This project is part of The Odin Project curriculum that aims to practice html skills by making a recipe website.
