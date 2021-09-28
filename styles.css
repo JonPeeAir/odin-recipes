@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Yaldevi&display=swap');
 
 * {
-    /* border: 1px solid black; */
+    /* border: 1px solid white; */
     font-family: Yaldevi, sans-serif;
+    color: whitesmoke;
+}
+
+html {
+    background-color: #181818;
+    /* background-color: rgba(255, 255, 0, 0.75); */
 }
 
 img {
@@ -16,4 +22,36 @@ img {
 .title {
     text-align: center;
     font-family: "Gideon Roman", serif;
+    font-size: 3rem;
+}
+
+.description {
+    text-align: center;
+
+}
+
+.recipe-list {
+    display: block;
+    margin: auto;
+    /* text-align: center; */
+}
+
+.recipe-title {
+    font-family: "Gideon Roman", serif;
+    font-size: 2rem;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.recipe-list li{
+    list-style-type: none;
+    margin: 5px 0px;
+}
+
+.recipe-list li a {
+    text-decoration: none;
+}
+
+.recipe-list li a:hover {
+    text-decoration: underline;
 }
