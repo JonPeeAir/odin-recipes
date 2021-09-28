@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Yaldevi&display=swap');
+
+* {
+    /* border: 1px solid black; */
+    font-family: Yaldevi, sans-serif;
+}
+
+img {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+}
+
+.title {
+    text-align: center;
+    font-family: "Gideon Roman", serif;
+}
