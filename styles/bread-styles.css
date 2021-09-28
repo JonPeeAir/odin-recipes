@@ -1,0 +1,27 @@
+
+body {
+    margin: auto;
+    width: 700px;
+    padding: 50px;
+    padding-top: 1px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+img {
+    padding: 10px 100px;
+    background-color: hsl(39, 77%, 83%, 0.2);
+}
+
+.list-style li{
+    margin: 10px auto;
+}
+
+.return {
+    display: block;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.return:hover {
+    font-weight: bolder;
+}
