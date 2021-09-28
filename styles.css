@@ -8,7 +8,6 @@
 
 html {
     background-color: #181818;
-    /* background-color: rgba(255, 255, 0, 0.75); */
 }
 
 img {
@@ -16,13 +15,14 @@ img {
     width: auto;
     display: block;
     margin: auto;
-    border: 5px solid black;
+    border: 10px ridge rgb(128, 73, 48, 0.5);
 }
 
 .title {
     text-align: center;
     font-family: "Gideon Roman", serif;
     font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 .description {
@@ -31,12 +31,12 @@ img {
 }
 
 .recipe-list {
-    margin: 100px auto;
-    width: 20%;
-    padding: 20px 200px;
-    background-color: hsl(29, 30%, 10%, 0.5);
-    border-radius: 5px;
+    margin: 30px auto;
+    max-width: 400px;
+    padding: 10px 200px;
+    background-color: hsl(0, 0%, 15%);
     text-align: center;
+    border: 5px double hsl(0, 0%, 50%);
 }
 
 .recipe-title {
@@ -56,5 +56,5 @@ img {
 }
 
 .recipe-list li a:hover {
-    text-decoration: underline;
+    font-family: "Gideon Roman", serif;
 }
